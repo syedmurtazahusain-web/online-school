@@ -1,0 +1,9 @@
+/* Import global styles - this is the main entry point for our design system */
+@import './styles/globals.css';
+
+/* Additional base styles specific to the app */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
